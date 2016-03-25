@@ -1,0 +1,20 @@
+{
+  "name": "express-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app* node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Pujals (http://twitter.com/subfuzion)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.7"
+  }
+}

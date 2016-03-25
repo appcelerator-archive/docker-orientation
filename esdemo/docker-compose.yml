@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+    extends:
+      file: common.yml
+      service: web
+    environment:
+      DEBUG: app*
+      NODE_ENV: development
+    volumes:
+      - ./dist:/usr/src/app/dist
