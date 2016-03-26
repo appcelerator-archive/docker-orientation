@@ -4,6 +4,8 @@ services:
     extends:
       file: docker-compose.base.yml
       service: web
+    ports:
+      - "3000:3000"
     environment:
       DEBUG: app*,-express*
       NODE_ENV: development

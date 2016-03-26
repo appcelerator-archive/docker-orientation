@@ -6,5 +6,6 @@ services:
       service: web
     ports:
       - "8080:8080"
+      - "3000:3000"
     command: "node_modules/.bin/node-debug --no-preload --web-host 0.0.0.0 ./app.js"
 
